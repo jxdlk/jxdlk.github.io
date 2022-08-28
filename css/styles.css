@@ -11792,7 +11792,7 @@ body {
   display: block;
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 1500px) {
     .portfolio-lightbox {
       display: flex;
       align-items: center;
@@ -11810,7 +11810,7 @@ body {
     }
 }
 
-@media (min-width: 1701px) {
+@media (min-width: 1501px) {
     .portfolio-lightbox {
       display: flex;
       align-items: center;

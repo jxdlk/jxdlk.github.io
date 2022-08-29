@@ -11792,41 +11792,21 @@ body {
   display: block;
 }
 
-@media (max-width: 1500px) {
-    .portfolio-lightbox {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transform: scale(1,0); 
-      padding: 10em;
-      position: fixed;
-      top: 0;
-      left: 0;
-      color: white;
-      background: rgba(0, 0, 0, .7);
-      background-size: 100vw;
-      text-align:center;
-      z-index: 10;
-    }
-}
-
-@media (min-width: 1501px) {
-    .portfolio-lightbox {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transform: scale(1,0); 
-      padding: 10em;
-      position: fixed;
-      top: 0;
-      left: 25em;
-      right: 25em;
-      color: white;
-      background: rgba(0, 0, 0, .7);
-      background-size: 100vw;
-      text-align:center;
-      z-index: 10;
-    }
+.portfolio-lightbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(1,0); 
+  padding: 10em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 970px;
+  color: white;
+  background: rgba(0, 0, 0, .7);
+  background-size: 100vw;
+  text-align:center;
+  z-index: 10;
 }
 
 .portfolio-lightbox:target {

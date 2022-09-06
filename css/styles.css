@@ -11797,14 +11797,15 @@ body {
   align-items: center;
   justify-content: center;
   transform: scale(1,0); 
-  padding: 10em;
+  padding: 5em;
   position: fixed;
   top: 0;
   left: 0;
   max-width: 970px;
   color: white;
   background: rgba(0, 0, 0, .7);
-  background-size: 100vw;
+  width: 100vw;
+  height: 100vh;
   text-align:center;
   z-index: 10;
 }
